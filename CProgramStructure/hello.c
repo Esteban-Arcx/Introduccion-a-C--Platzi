@@ -9,6 +9,10 @@ int main()
     /*  Así es como se comenta en C 
     first hello world in C language
     */
-    printf("Hello platzi");
+
+   /*imprimir en consola*/
+    printf("Hello Esteban");
+
+    /* Es lo que termina la función main, la ejecución del programa*/
     return 0;
 }
