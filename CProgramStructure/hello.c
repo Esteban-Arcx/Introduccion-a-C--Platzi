@@ -1,4 +1,8 @@
- /*Preprocessors Comands, Zona donde incluimos nuestras librerias.*/
+ /*Preprocessors Comands, Zona donde incluimos nuestras librerias.
+ #include para incluir librerías
+ <stdio.h manejo de entrada y salida en la terminal
+*/
+ 
 #include <stdio.h>
 
 /*función principal, en donde la ejecución de programa comienza*/
