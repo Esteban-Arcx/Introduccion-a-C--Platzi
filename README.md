@@ -66,13 +66,13 @@ int main()
     return 0;
 }
 ```
-- `#incude`: Indicador para uso de libreria.
+- `#incude`: Indicador para uso de librería.
 - `<stdio.h>`: manejo de entrada y salida en la terminal
-- `printf()`: Funcion para imprimir en consola.
-- `return 0`: Termina la ejecucion del programa, es decir de la funcion `main`
-- `int main()`: función principal, en donde la ejecución de programa comienza.
-- `< >`: Donde se especifica la libreria.
-- `()`: Parametros de función.
+- `int main()`: Función principal, en donde la ejecución del programa comienza.
+- `printf()`: Función para imprimir en consola.
+- `return 0`: Termina la ejecución del programa, es decir de la función `main`
+- `< >`: Donde se especifica la librería.
+- `()`: Parámetros de función.
 - `{}`: Abrir/Cerrar proceso.
-- `/*  */`: comentar varias lineas.
-- `;`: es el signo de fin de sentencia
+- `/*  */`: comentar varias líneas.
+- `;`: Indicador del fin de una sentencia
