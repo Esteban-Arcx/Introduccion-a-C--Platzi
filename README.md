@@ -8,6 +8,9 @@
 - [Instalando C en Linux](#Instalando-C-en-Linux)
 - [Compilar programas usando GCC](#Compilar-programas-usando-GCC)
 
+## Tipos de Datos en el lenguaje C
+- [Estructura de un programa C](#Estructura-de-un-programa-C)
+
 
 ## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
 
@@ -46,3 +49,30 @@ Ejecutar el programa
 ```bash
 ./<filename>
 ```
+
+## Estructura de un programa C<a name="Estructura-de-un-programa-C"></a>
+
+
+```C
+ /*Preprocessors Comands, Zona donde incluimos nuestras librerias.*/
+#include <stdio.h>
+
+int main()
+{
+    /*
+    first hello world in C language
+    */
+    printf("Hello Esteban");
+    return 0;
+}
+```
+- `#incude`: Indicador para uso de libreria.
+- `<stdio.h>`: manejo de entrada y salida en la terminal
+- `printf()`: Funcion para imprimir en consola.
+- `return 0`: Termina la ejecucion del programa, es decir de la funcion `main`
+- `int main()`: función principal, en donde la ejecución de programa comienza.
+- `< >`: Donde se especifica la libreria.
+- `()`: Parametros de función.
+- `{}`: Abrir/Cerrar proceso.
+- `/*  */`: comentar varias lineas.
+- `;`: es el signo de fin de sentencia
