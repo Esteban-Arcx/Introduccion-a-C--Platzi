@@ -1,4 +1,5 @@
- /*Preprocessors Comands, Zona donde incluimos nuestras librerias.
+ /*
+ Preprocessors Comands, Zona donde incluimos nuestras librerías.
  #include para incluir librerías
  <stdio.h manejo de entrada y salida en la terminal
 */
@@ -15,7 +16,9 @@ int main()
     */
 
    /*imprimir en consola*/
-    printf("Hello Esteban");
+   
+    printf("Hello Esteban\n");
+    /* \n Representa un salto de línea, ya que la función printf() no la proporciona */
 
     /* Es lo que termina la función main, la ejecución del programa*/
     return 0;
