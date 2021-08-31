@@ -2,27 +2,25 @@
 
 /* 
 Enum(Enumeration) --> Es una especie de lista, Es un tipo de dato 
-que no vas a permitir guardar valores constantes 
+que no vas a permitir guardar valores constantes.
 */
 
-enum weekDays{
-    Sunday, 
-    Monday, 
-    Tuesday, 
-    Wednesday,
-    Friday,
-    Saturday
-};
+enum deck
+{
+    club = 0,
+    diamonds = 5,
+    hearts = 10,
+    spades = 15
+}card;
 
 int main()
 {
+    card = spades;
 
-   enum weekDays today;
-   today = Tuesday;
-   printf("Day %d", today+1);
+    printf("Card Power %d\n", card);
 
-    return 0;
-}
+        return 0;
+    }
 
 
 
