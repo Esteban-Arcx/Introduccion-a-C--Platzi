@@ -16,6 +16,7 @@
 - [Unsigned](#Unsigned)
 - [Flotantes](#Flotantes)
 - [Void](#Void)
+- [Enum](#Enum)
 
 ## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
 
@@ -186,5 +187,12 @@ El tipo void especifica que no hay ningún valor disponible, se utiliza en tres 
 ```C
   void * VoidPtr;
 ```
+
+### Enum<a name="Enum"></a>
+
+Enumeration o enum es una especie de lista, es un tipo de dato que nos vas a permitir guardar valores constantes, se utiliza principalmente para asignar nombres a las constantes integrales, haciendo que un programa sea fácil de leer y mantener.
+
+<div align="center"><img src="https://www.geeksforgeeks.org/wp-content/uploads/Enum-In-C.png" width="90%"></div>  
+
 
 
