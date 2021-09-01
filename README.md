@@ -8,10 +8,10 @@
 - [Instalando C en Linux](#Instalando-C-en-Linux)
 - [Compilar programas usando GCC](#Compilar-programas-usando-GCC)
 - [¿Qué es GCC?](#¿Qué-es-GCC?)
-
-## Tipos de Datos en el lenguaje C
 - [Estructura de un programa C](#Estructura-de-un-programa-C)
 
+## Tipos de Datos en el lenguaje C
+- [Tipos de datos](#Tipos-de-Datos)
 
 ## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
 
@@ -88,3 +88,79 @@ int main()
 - `{}`: Abrir/Cerrar proceso.
 - `/*  */`: comentar varias líneas.
 - `;`: Indicador del fin de una sentencia
+
+
+## Tipos de datos<a name="Tipos-de-Datos"></a>
+C es un lenguaje de programación tipado, es decir que siempre se debe declarar el tipo de dato que va a almacenar una variable.
+
+#### Enteros
+- `int`: 4 Bytes
+```C
+  int min, max;
+  min = -2147483648;
+  max = 2147483647;
+```
+
+- `short`: 2 Bytes
+```C
+  short min, max;
+  min = -32768;
+  max = 32767;
+```
+
+- `long`: 8 Bytes
+```C
+  long min, max;
+  min =  -9223372036854775808;
+  max =  9223372036854775807;
+```
+
+#### Unsigned
+Cuando no se necesita los números negativos se utiliza la instrucción unsigned.
+
+- `unsigned int`: 4 Bytes
+```C
+  unsigned int min, max;
+  min = 0;
+  max = 4294967295;
+
+```
+
+- ` unsigned short`: 2 Bytes
+```C
+  unsigned short min, max;
+  min = 0;
+  max = 65535;
+```
+
+- `unsigned long`: 8 Bytes
+```C
+unsigned long min, max;
+min = 0;
+max = 18446744073709551615;
+```
+
+#### Flotantes
+Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
+
+- `float`: 4 Bytes
+```C
+  float min, max;
+  min = 1.2E-38;
+  max = 3.4E+38;
+```
+
+- `double`: 8 Bytes
+```C
+  double min, max;
+  min = 2.3E-308;
+  max = 1.7E+308;
+```
+
+- `long double`: 10 Bytes  to 
+```C
+  long double min, max;
+  min = 3.4E-4932;
+  max = 1.1E+4932; 
+```
+
