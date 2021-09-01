@@ -7,6 +7,7 @@
 - [¿Por qué aprender C?](#¿Por-qué-aprender-C?)
 - [Instalando C en Linux](#Instalando-C-en-Linux)
 - [Compilar programas usando GCC](#Compilar-programas-usando-GCC)
+- [¿Qué es GCC?](#¿Qué-es-GCC?)
 
 ## Tipos de Datos en el lenguaje C
 - [Estructura de un programa C](#Estructura-de-un-programa-C)
@@ -40,15 +41,26 @@ Verificar si gcc está instalado con éxito o no
  gcc --version
 ```
 
-## Compilar programas usando gcc<a name="Compilar-programas-usando-GCC"></a>
+## Compilar programas usando GCC<a name="Compilar-programas-usando-GCC"></a>
 Compilar programas
 ```bash
-gcc <filename> -o <name_of_executable>
+gcc -o <name_of_executable> <filename.c>
 ```
 Ejecutar el programa
 ```bash
-./<filename>
+./<name_of_executable>
 ```
+
+
+## ¿Qué es GCC?<a name="¿Qué-es-GCC?"></a>
+GCC son las siglas del compilador para C
+
+- GNU
+- Compiler
+- Collection
+
+Lo que hace es tomar el código escrito en C y generar código binario que tu sistema operativo pueda entender y ejecutar. 
+
 
 ## Estructura de un programa C<a name="Estructura-de-un-programa-C"></a>
 
