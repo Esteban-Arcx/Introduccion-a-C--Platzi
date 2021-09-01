@@ -12,6 +12,10 @@
 
 ## Tipos de Datos en el lenguaje C
 - [Tipos de datos](#Tipos-de-Datos)
+- [Enteros](#Enteros)
+- [Unsigned](#Unsigned)
+- [Flotantes](#Flotantes)
+- [Void](#Void)
 
 ## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
 
@@ -93,7 +97,7 @@ int main()
 ## Tipos de datos<a name="Tipos-de-Datos"></a>
 C es un lenguaje de programación tipado, es decir que siempre se debe declarar el tipo de dato que va a almacenar una variable.
 
-#### Enteros
+### Enteros<a name="Enteros"></a>
 - `int`: 4 Bytes
 ```C
   int min, max;
@@ -115,7 +119,7 @@ C es un lenguaje de programación tipado, es decir que siempre se debe declarar 
   max =  9223372036854775807;
 ```
 
-#### Unsigned
+### Unsigned<a name="Unsigned"></a>
 Cuando no se necesita los números negativos se utiliza la instrucción unsigned.
 
 - `unsigned int`: 4 Bytes
@@ -140,7 +144,7 @@ min = 0;
 max = 18446744073709551615;
 ```
 
-#### Flotantes
+### Flotantes<a name="Flotantes"></a>
 Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
 
 - `float`: 4 Bytes
@@ -163,4 +167,24 @@ Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
   min = 3.4E-4932;
   max = 1.1E+4932; 
 ```
+
+### Void<a name="Void"></a>
+El tipo void especifica que no hay ningún valor disponible, se utiliza en tres diferentes situaciones.
+
+- La función retorna un tipo de dato void.
+```C
+  void function();
+```
+
+- La función tiene argumentos de tipo void, es decir no acepta o no se requieren de parámetros.
+
+```C
+  int random(void);
+```
+
+-  El puntero o apuntador que va a la dirección en memoria de un objeto, no le importa el tipo de dato que tenga.
+```C
+  void * VoidPtr;
+```
+
 
