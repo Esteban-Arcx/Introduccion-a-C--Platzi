@@ -1,30 +1,34 @@
 # Curso de introduccion a C
   <div align="center"><img src="https://programaenlinea.net/wp-content/uploads/2018/03/C-lenguaje-de-programacion-mas-popular.jpeg" width="50%"></div>  
 
-## Introducción al lenguaje C<!-- omit in toc -->
+## Tabla de Contenido  <a href="#tabla-de-contenido"></a>
 
-- [¿Qué es el lenguaje C?](#¿Qué-es-el-lenguaje-C?)
-- [¿Por qué aprender C?](#¿Por-qué-aprender-C?)
-- [Instalando C en Linux](#Instalando-C-en-Linux)
-- [Compilar programas usando GCC](#Compilar-programas-usando-GCC)
-- [¿Qué es GCC?](#¿Qué-es-GCC?)
-- [Estructura de un programa C](#Estructura-de-un-programa-C)
+### Introducción al lenguaje C<!-- omit in toc -->
 
-## Tipos de Datos en el lenguaje C
-- [Tipos de datos](#Tipos-de-Datos)
-- [Enteros](#Enteros)
-- [Unsigned](#Unsigned)
-- [Flotantes](#Flotantes)
-- [Void](#Void)
-- [Enum](#Enum)
-- [Char](#Char)
+- [¿Qué es el lenguaje C?](#qué-es-el-lenguaje-c)
+- [¿Por qué aprender C?](#por-qué-aprender-c)
+- [Instalando C en Linux](#instalando-c-en-linux)
+- [Compilar programas usando GCC](#compilar-programas-usando-gcc)
+- [¿Qué es GCC?](#qué-es-gcc)
+- [Estructura de un programa C](#estructura-de-un-programa-c)
 
-## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
+### Tipos de Datos en el lenguaje C
+- [Tipos de datos](#tipos-de-datos)
+- [Enteros](#enteros)
+- [Unsigned](#unsigned)
+- [Flotantes](#flotantes)
+- [Void](#void)
+- [Enum](#enum)
+- [Char](#char)
+- [String](#string)
+
+## ¿Qué es el lenguaje C?<a name="qué-es-el-lenguaje-c"></a>
 
 C es un lenguaje de programación de tipo estructurada creado por Dennis Ritchie durante 1972 y 1973, usa un tipado estático, soporta la recursividad, es un lenguaje compilado que permite tener mucha velocidad en tiempo de ejecución y control de la memoria por lo que es muy utilizado en sistemas operativos, software de aplicación, drivers y principalmente en sistemas embebidos.
 
 
-## ¿Por qué aprender C?<a name="¿Por-qué-aprender-C?"></a>
+## ¿Por qué aprender C?<a name="por-qué-aprender-c"></a>
+
 
 - Ayuda a entender los fundamentos de teoría de computación, al aprender la lógica de programar en C empezar a trabajar con otros lenguajes será más sencillo.
 
@@ -32,7 +36,12 @@ C es un lenguaje de programación de tipo estructurada creado por Dennis Ritchie
 
 - Al ser muy rápido en tiempo de ejecución es el más utilizado en programación de circuitos embebidos.
 
-## Instalando C en Ubuntu(linux)<a name="Instalando-C-en-Linux"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+## Instalando C en Ubuntu(linux)<a name="instalando-c-en-linux"></a>
 
 Actualizar la lista de paquetes
 ```bash
@@ -47,7 +56,13 @@ Verificar si gcc está instalado con éxito o no
  gcc --version
 ```
 
-## Compilar programas usando GCC<a name="Compilar-programas-usando-GCC"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+## Compilar programas usando GCC<a name="compilar-programas-usando-gcc"></a>
+
 Compilar programas
 ```bash
 gcc -o <name_of_executable> <filename.c>
@@ -57,8 +72,13 @@ Ejecutar el programa
 ./<name_of_executable>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
 
-## ¿Qué es GCC?<a name="¿Qué-es-GCC?"></a>
+
+## ¿Qué es GCC?<a name="qué-es-gcc"></a>
+
 GCC son las siglas del compilador para C
 
 - GNU
@@ -67,9 +87,12 @@ GCC son las siglas del compilador para C
 
 Lo que hace es tomar el código escrito en C y generar código binario que tu sistema operativo pueda entender y ejecutar. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
 
-## Estructura de un programa C<a name="Estructura-de-un-programa-C"></a>
 
+## Estructura de un programa C<a name="estructura-de-un-programa-c"></a>
 
 ```C
  /*Preprocessors Comands, Zona donde incluimos nuestras librerias.*/
@@ -96,10 +119,16 @@ int main()
 - `;`: Indicador del fin de una sentencia
 
 
-## Tipos de datos<a name="Tipos-de-Datos"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+## Tipos de datos<a name="tipos-de-datos"></a>
 C es un lenguaje de programación tipado, es decir que siempre se debe declarar el tipo de dato que va a almacenar una variable.
 
-### Enteros<a name="Enteros"></a>
+
+### Enteros<a name="enteros"></a>
 - `int`: 4 Bytes
 ```C
   int min, max;
@@ -121,7 +150,13 @@ C es un lenguaje de programación tipado, es decir que siempre se debe declarar 
   max =  9223372036854775807;
 ```
 
-### Unsigned<a name="Unsigned"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+### Unsigned<a name="unsigned"></a>
+
 Cuando no se necesita los números negativos se utiliza la instrucción unsigned.
 
 - `unsigned int`: 4 Bytes
@@ -146,7 +181,12 @@ min = 0;
 max = 18446744073709551615;
 ```
 
-### Flotantes<a name="Flotantes"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+### Flotantes<a name="flotantes"></a>
 Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
 
 - `float`: 4 Bytes
@@ -169,6 +209,10 @@ Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
   min = 3.4E-4932;
   max = 1.1E+4932; 
 ```
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
 
 ### Void<a name="Void"></a>
 El tipo de dato void especifica que no hay ningún valor disponible, se utiliza en tres diferentes situaciones.
@@ -189,7 +233,12 @@ El tipo de dato void especifica que no hay ningún valor disponible, se utiliza 
   void * VoidPtr;
 ```
 
-### Enum<a name="Enum"></a>
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+### Enum<a name="enum"></a>
 
 Enumeration o enum es una especie de lista, es un tipo de dato que nos vas a permitir guardar valores constantes, se utiliza principalmente para asignar nombres a las constantes integrales, haciendo que un programa sea fácil de leer y mantener.
 
@@ -230,8 +279,12 @@ Output:
 Card Power 15
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
 
-### Char<a name="Char"></a>
+
+### Char<a name="char"></a>
 
 El tipo de dato Char nos permite almacenar un solo carácter que debe estar encerrado entre comillas simples. Char está internamente constituido por un rango de valores, igual que cualquier rango de números.
 - `char`: 1 Byte
@@ -272,3 +325,34 @@ Output:
 ```console
 HELLO
 ```
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+### String<a name="string"></a>
+
+En C no  existe  un  tipo de dato predefinido que nos permita manipular cadenas  de  caracteres, la forma en la que podemos hacer uso de una cadena de caracteres es usando un arreglo de caracteres unidimensional.
+
+Podemos  utilizar  varias  formas  de inicialización:
+
+- Sin especificar el tamaño de la cadena
+
+```C
+  char str[] = "Hello";
+  char str[] = {'H', 'e', 'l', 'l', 'o', 0};
+  char str[] = {'H', 'e', 'l', 'l', 'o', '\0'};
+```
+
+- Especificando el tamaño de la cadena
+
+```C
+  char str[6] = "Hello";  
+  char str[6] = {'H', 'e', 'l', 'l', 'o', 0}; 
+  char str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+```
+El carácter 0 o \0 se conoce como carácter nulo, se encarga de marcar el final de la cadena de caracteres y aunque pertenece a la cadena, no aparece al utilizar funciones como printf.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
