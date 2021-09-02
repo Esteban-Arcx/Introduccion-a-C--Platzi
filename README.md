@@ -17,6 +17,7 @@
 - [Flotantes](#Flotantes)
 - [Void](#Void)
 - [Enum](#Enum)
+- [Char](#Char)
 
 ## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
 
@@ -170,7 +171,7 @@ Números reales o de coma flotante, este tipo de dato no puede ser unsigned.
 ```
 
 ### Void<a name="Void"></a>
-El tipo void especifica que no hay ningún valor disponible, se utiliza en tres diferentes situaciones.
+El tipo de dato void especifica que no hay ningún valor disponible, se utiliza en tres diferentes situaciones.
 
 - La función retorna un tipo de dato void.
 ```C
@@ -227,4 +228,47 @@ Output:
 
 ```console
 Card Power 15
+```
+
+
+### Char<a name="Char"></a>
+
+El tipo de dato Char nos permite almacenar un solo carácter que debe estar encerrado entre comillas simples. Char está internamente constituido por un rango de valores, igual que cualquier rango de números.
+- `char`: 1 Byte
+
+```C
+  char min, max;
+  min = -128;
+  max = 127
+```
+- `unsigned char`: 1 Byte
+
+```C
+  unsigned char min, max;
+  min = 0;
+  max = 255
+```
+Así es como se ve char en funcionamiento
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    char letter1 = 'H';
+    char letter2 = 'E';
+    char letter3 = 'L';
+    char letter4 = 'L';
+    char letter5 = 'O';
+
+    printf("%c%c%c%c%c\n", letter1,letter2,letter3,letter4, letter5);
+   
+    return 0;
+}
+```
+
+Output:
+
+```console
+HELLO
 ```
