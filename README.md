@@ -20,6 +20,7 @@
 - [Void](#void)
 - [Enum](#enum)
 - [Char](#char)
+- [String](#string)
 
 ## ¿Qué es el lenguaje C?<a name="qué-es-el-lenguaje-c"></a>
 
@@ -324,6 +325,34 @@ Output:
 ```console
 HELLO
 ```
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
+
+### String<a name="string"></a>
+
+En C no  existe  un  tipo de dato predefinido que nos permita manipular cadenas  de  caracteres, la forma en la que podemos hacer uso de una cadena de caracteres es usando un arreglo de caracteres unidimensional.
+
+Podemos  utilizar  varias  formas  de inicialización:
+
+- Sin especificar el tamaño de la cadena
+
+```C
+  char str[] = "Hello";
+  char str[] = {'H', 'e', 'l', 'l', 'o', 0};
+  char str[] = {'H', 'e', 'l', 'l', 'o', '\0'};
+```
+
+- Especificando el tamaño de la cadena
+
+```C
+  char str[6] = "Hello";  
+  char str[6] = {'H', 'e', 'l', 'l', 'o', 0}; 
+  char str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+```
+El carácter 0 o \0 se conoce como carácter nulo, se encarga de marcar el final de la cadena de caracteres y aunque pertenece a la cadena, no aparece al utilizar funciones como printf.
+
 <div align="right">
   <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
 </div>
