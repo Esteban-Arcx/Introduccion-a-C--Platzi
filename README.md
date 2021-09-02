@@ -1,16 +1,18 @@
 # Curso de introduccion a C
   <div align="center"><img src="https://programaenlinea.net/wp-content/uploads/2018/03/C-lenguaje-de-programacion-mas-popular.jpeg" width="50%"></div>  
 
-## Introducción al lenguaje C<!-- omit in toc -->
+## Tabla de Contenido <a href="#tabla-de-contenido"> </a>
 
-- [¿Qué es el lenguaje C?](#¿Qué-es-el-lenguaje-C?)
+### Introducción al lenguaje C<!-- omit in toc -->
+
+- [¿Qué es el lenguaje C?](#qué-es-el-lenguaje-c)
 - [¿Por qué aprender C?](#¿Por-qué-aprender-C?)
 - [Instalando C en Linux](#Instalando-C-en-Linux)
 - [Compilar programas usando GCC](#Compilar-programas-usando-GCC)
 - [¿Qué es GCC?](#¿Qué-es-GCC?)
 - [Estructura de un programa C](#Estructura-de-un-programa-C)
 
-## Tipos de Datos en el lenguaje C
+### Tipos de Datos en el lenguaje C
 - [Tipos de datos](#Tipos-de-Datos)
 - [Enteros](#Enteros)
 - [Unsigned](#Unsigned)
@@ -19,7 +21,7 @@
 - [Enum](#Enum)
 - [Char](#Char)
 
-## ¿Qué es el lenguaje C?<a name="Qué-es-el-lenguaje-C"></a>
+## ¿Qué es el lenguaje C?<a name="qué-es-el-lenguaje-c"></a>
 
 C es un lenguaje de programación de tipo estructurada creado por Dennis Ritchie durante 1972 y 1973, usa un tipado estático, soporta la recursividad, es un lenguaje compilado que permite tener mucha velocidad en tiempo de ejecución y control de la memoria por lo que es muy utilizado en sistemas operativos, software de aplicación, drivers y principalmente en sistemas embebidos.
 
@@ -98,6 +100,11 @@ int main()
 
 ## Tipos de datos<a name="Tipos-de-Datos"></a>
 C es un lenguaje de programación tipado, es decir que siempre se debe declarar el tipo de dato que va a almacenar una variable.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
+</div>
+
 
 ### Enteros<a name="Enteros"></a>
 - `int`: 4 Bytes
