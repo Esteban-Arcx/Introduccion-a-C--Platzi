@@ -192,7 +192,39 @@ El tipo void especifica que no hay ningún valor disponible, se utiliza en tres 
 
 Enumeration o enum es una especie de lista, es un tipo de dato que nos vas a permitir guardar valores constantes, se utiliza principalmente para asignar nombres a las constantes integrales, haciendo que un programa sea fácil de leer y mantener.
 
-<div align="center"><img src="https://www.geeksforgeeks.org/wp-content/uploads/Enum-In-C.png" width="90%"></div>  
+<div align="center"><img src="https://www.geeksforgeeks.org/wp-content/uploads/Enum-In-C.png" width="90%"></div> 
 
+Un programa de ejemplo para demostrar el funcionamiento de enum en C.
+```C
+#include <stdio.h>
 
+/*
+Creation and instance
+*/
+enum deck
+{
+    club = 0,
+    diamonds = 5,
+    hearts = 10,
+    spades = 15
+}card; 
 
+int main()
+{
+
+  /*
+  Operation
+  */
+  card = spades;
+
+  printf("Card Power %d\n", card);
+
+  return 0;
+}
+```
+
+Output:
+
+```console
+Card Power 15
+```
