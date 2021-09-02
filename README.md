@@ -95,14 +95,17 @@ Lo que hace es tomar el código escrito en C y generar código binario que tu si
 ## Estructura de un programa C<a name="estructura-de-un-programa-c"></a>
 
 ```C
- /*Preprocessors Comands, Zona donde incluimos nuestras librerias.*/
+ /*
+Preprocessors Comands, Zona donde incluimos
+nuestras librerias.
+*/
 #include <stdio.h>
 
 int main()
 {
-    /*
-    first hello world in C language
-    */
+    
+    //first hello world in C language
+    
     printf("Hello Esteban");
     return 0;
 }
@@ -115,6 +118,7 @@ int main()
 - `< >`: Donde se especifica la librería.
 - `()`: Parámetros de función.
 - `{}`: Abrir/Cerrar proceso.
+- `//`: Comentar una sola línea.
 - `/*  */`: comentar varias líneas.
 - `;`: Indicador del fin de una sentencia
 
@@ -248,9 +252,9 @@ Un programa de ejemplo para demostrar el funcionamiento de enum en C.
 ```C
 #include <stdio.h>
 
-/*
-Creation and instance
-*/
+
+//Creation and instance
+
 enum deck
 {
     club = 0,
@@ -262,9 +266,9 @@ enum deck
 int main()
 {
 
-  /*
-  Operation
-  */
+  
+  //Operation
+
   card = spades;
 
   printf("Card Power %d\n", card);

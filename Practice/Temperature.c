@@ -2,9 +2,9 @@
 
 int main()
 {
-    /*
-    En C se deben declarar todas las variables antes de su uso
-    */
+    
+    //En C se deben declarar todas las variables antes de su uso
+    
     int fahr, celsius;
     int lower, upper, step;
     char header [60] = "Equivalencias Grados \n\tCelsius a Fahrenheit\n\n\t °C\t    °F\n";
@@ -13,7 +13,7 @@ int main()
     upper = 300;
     step = 20;
 
-    printf("\t%s\n", header);/* \t represeta la tabulación, \n representa un salto de línea*/
+    printf("\t%s\n", header);// \t represeta la tabulación, \n representa un salto de línea
 
     celsius = lower;
     

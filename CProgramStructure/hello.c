@@ -6,7 +6,7 @@
  
 #include <stdio.h>
 
-/*función principal, en donde la ejecución de programa comienza*/
+//función principal, en donde la ejecución de programa comienza
 int main()
 
 {
@@ -15,11 +15,11 @@ int main()
     first hello world in C language
     */
 
-   /*imprimir en consola*/
+   //imprimir en consola
    
     printf("Hello Esteban\n");
-    /* \n Representa un salto de línea, ya que la función printf() no la proporciona */
+    // \n Representa un salto de línea, ya que la función printf() no la proporciona 
 
-    /* Es lo que termina la función main, la ejecución del programa*/
+    // Es lo que termina la función main, la ejecución del programa//
     return 0;
 }
