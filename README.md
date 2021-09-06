@@ -1,6 +1,7 @@
 # Platzi Programación en C 
 <p align="center">
   <a href="https://platzi.com/clases/lenguaje-c/"><img src="https://static.platzi.com/media/achievements/badge-introduccion-c-ab190d58-4558-4acf-970d-81313f9e3ff6.png"></a>
+  <a href="https://platzi.com/clases/flujo-c/"><img src="https://static.platzi.com/media/achievements/badge-control-flujo-c-d0d50c82-1e0f-4f2d-8d81-a78d3256c0ee.png"></a>
 </p>
 
 
@@ -33,7 +34,7 @@
 
 
 
-<!-- ### Control de Flujo en C
+### Control de Flujo en C
 
 #### Toma de decisiones
 
@@ -41,7 +42,7 @@
 #### Control de Bucles en C
 
 
-### Uso de las instrucciones break y continue -->
+#### Uso de las instrucciones break y continue
 
 ## ¿Qué es el lenguaje C?<a name="qué-es-el-lenguaje-c"></a>
 
@@ -450,7 +451,7 @@ Extern lo utilizamos para el manejo de variables en diferentes archivos.
 #include <stdio.h>
 
 /*
-Para poder utilizar estas variable después de
+Para poder utilizar estas variables después de
 haberlas declarado debemos definirlas para indicar
 que vamos a hacer uso de ellas en nuestro código.
 */
@@ -562,3 +563,4 @@ La diferencia entre el uso de `const` y el uso de `#define` está en  que median
 <div align="right">
   <small><a href="#tabla-de-contenido--">🡡 volver al inicio</a></small>
 </div>
+
