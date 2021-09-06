@@ -3,3 +3,7 @@ CToF
 FToC
 EnumExample
 CharExample
+var
+point
+const
+game
